@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <link rel="stylesheet" href="style.css">
+<!--
+    <style>
+        /*
+        Seletor {
+        Propriedade: Valor
+        }    
+        */
+        li {
+            display: inline;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+-->
+</head>
+<body>
+    <nav>
+        <ul>  <!-- tag ul: Lista ordenada. tag ol: lista não-ordenada.-->
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="contato.html">Contato</a>
+            </li>
+            <li>
+                <a href="tabela.html">Tabela</a>
+            </li>
+        </ul>   
+    </nav>
+    <hr>
+    <table border="1">
+        <caption>Título da tabela</caption>
+        <thead>
+            <th>id</th>
+            <th>nome</th>
+            <th>idade</th>
+        </thead>
+        <tbody>
+            <tr><!--Table Rows: linhas da tabela-->
+                <td>1</td> <!--table datas-->
+                <td>Victor</td>
+                <td>18</td>
+            </tr>
+            <tr><!--Table Rows: linhas da tabela-->
+                <td>2</td> <!--table datas-->
+                <td>Diogo</td>
+                <td>34</td>
+            </tr>
+            <tr><!--Table Rows: linhas da tabela-->
+                <td>3</td> <!--table datas-->
+                <td>Geovanni</td>
+                <td>18</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>X</td>
+                <td>total</td>
+                <td>3</td>
+            </tr>
+        </tfoot>
+    </table>
+    <br>
+    <form>
+        <fieldset>
+            <legend>Formuláriozão</legend>
+       Campo de texto <input type="text">
+       <br>
+       Campo de senha <input type="password">
+       <br>
+       Radio button <input type="radio" name="radio">
+       <input type="radio" name="radio">
+       <br>
+       Checkbox <input type="checkbox" name="checkbox">
+       <input type="checkbox" name="checkbox">
+       <br>
+       Text area<textarea cols="30" rows="3"></textarea>
+       <br>
+       combo box
+        <select>
+            <option>opcao 1</option>
+            <option>opcao 2</option>
+            <option>opcao 3</option>
+        </select>
+    </fieldset>
+    </form>
+</body>
+</html>
